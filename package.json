@@ -1,0 +1,28 @@
+{
+  "name": "reason-react-parcel",
+  "version": "0.1.0",
+  "scripts": {
+    "re:build": "bsb -make-world",
+    "re:start": "bsb -make-world -w -ws _ ",
+    "re:clean": "bsb -clean-world",
+    "parcel:start": "parcel public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "reason-react",
+    "parcel"
+  ],
+  "author": "Julien Fradin <julien@frad.in>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "reason-react": ">=0.7.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^8.3.3",
+    "parcel-bundler": "1.12.4"
+  }
+}
